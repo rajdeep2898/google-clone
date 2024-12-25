@@ -1,0 +1,28 @@
+.footer {
+    background-color: #f2f2f2; /* Light gray background */
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #5f6368; /* Subtle gray text */
+    border-top: 1px solid #ddd; /* Top border for separation */
+  }
+  
+  .footer p {
+    margin: 10px 0;
+    color: #3c4043; /* Slightly darker text for the language section */
+  }
+  
+  .footer .links {
+    margin-top: 10px;
+  }
+  
+  .footer .links a {
+    margin: 0 10px;
+    color: #1a73e8; /* Google blue for links */
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer .links a:hover {
+    text-decoration: underline;
+  }
