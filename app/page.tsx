@@ -1,17 +1,16 @@
 "use client"
-import Image from "next/image";
-import { useState } from "react";
+// import { useState } from "react";
 import SearchBar from './../components/SearchBar'
 import Footer from './../components/Footer'
 
 export default function Home() {
-  const [query, setQuery] = useState('');
+  // const [query, setQuery] = useState('');
 
-  const handleSearch = () => {
-    if (query) {
-      window.location.href = `https://www.google.com/search?q=${query}`;
-    }
-  };
+  // const handleSearch = () => {
+  //   if (query) {
+  //     window.location.href = `https://www.google.com/search?q=${query}`;
+  //   }
+  // };
   return (
     <div className="app">
       <header className="header">
