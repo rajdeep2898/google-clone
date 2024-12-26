@@ -1,0 +1,57 @@
+/* General header styles */
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    /* border-bottom: 1px solid #ddd; */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Left Section Styles */
+  .left-section {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #202124;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Right Section Styles */
+  .right-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .icon {
+    font-size: 18px;
+    color: #5f6368;
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    color: #202124;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+  

@@ -1,22 +1,51 @@
-.search-bar {
-    margin: 20px auto;
-    max-width: 600px;
-  }
-  
-  .search-bar input {
-    width: 100%;
-    padding: 10px;
-    font-size: 18px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  .buttons {
+/* General Styles */
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 50px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    padding: 0 15px;
+    margin: auto;
     margin-top: 20px;
-  }
-  
-  .buttons button {
+}
+
+/* Input Field Styles */
+.search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    margin: 0 10px;
+}
+
+/* Icon Styles */
+.icon {
+    font-size: 18px;
+    color: #757575;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #202124;
+}
+
+.search-icon {
+    margin-right: 10px;
+}
+
+.mic-icon,
+.lens-icon {
+    margin-left: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+.buttons button {
     margin: 0 10px;
     padding: 10px 20px;
     font-size: 16px;
@@ -24,9 +53,8 @@
     border: 1px solid #ddd;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  .buttons button:hover {
+}
+
+.buttons button:hover {
     background-color: #f1f1f1;
-  }
-  
+}
